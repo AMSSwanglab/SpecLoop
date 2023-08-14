@@ -4,12 +4,12 @@ library(foreach)
 library(pROC)
 library(PRROC)
 
-left_anchor_data <- read.csv("D:\\个人\\Project2\\data\\GitHub\\data\\Example_left_anchor_data.csv",header = T,row.names = 1)
-right_anchor_data <- read.csv("D:\\个人\\Project2\\data\\GitHub\\data\\Example_right_anchor_data.csv",header = T,row.names = 1)
-label <- read.csv("D:\\个人\\Project2\\data\\GitHub\\data\\Example_label.csv",header = T,row.names = 1)
-ppi <- read.csv("D:\\个人\\Project2\\data\\GitHub\\data\\TF_PPI.csv",header = F)
-cross_tissue_expression <- read.csv("D:\\个人\\Project2\\data\\GitHub\\data\\TF_cross_tissue_expression.csv",header = T,row.names = 1)
-TF_expression <- read.csv("D:\\个人\\Project2\\data\\GitHub\\data\\TF_gene_expression.csv",header = T,row.names = 1)
+left_anchor_data <- read.csv("D:\\涓汉\\Project2\\data\\GitHub\\data\\Example_left_anchor_data.csv",header = T,row.names = 1)
+right_anchor_data <- read.csv("D:\\涓汉\\Project2\\data\\GitHub\\data\\Example_right_anchor_data.csv",header = T,row.names = 1)
+label <- read.csv("D:\\涓汉\\Project2\\data\\GitHub\\data\\Example_label.csv",header = T,row.names = 1)
+ppi <- read.csv("D:\\涓汉\\Project2\\data\\GitHub\\data\\TF_PPI.csv",header = F)
+cross_tissue_expression <- read.csv("D:\\涓汉\\Project2\\data\\GitHub\\data\\TF_cross_tissue_expression.csv",header = T,row.names = 1)
+TF_expression <- read.csv("D:\\涓汉\\Project2\\data\\GitHub\\data\\TF_gene_expression.csv",header = T,row.names = 1)
 Label <- label$Label
 
 #Set cutoff 
